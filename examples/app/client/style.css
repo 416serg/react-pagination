@@ -1,0 +1,7 @@
+.page-selected {
+    text-decoration: underline;
+}
+
+.first-button, .minus-button, .page-button, .plus-button, .last-button {
+    cursor: pointer;
+}
