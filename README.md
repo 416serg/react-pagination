@@ -6,7 +6,7 @@ A simple pagination widget for React and FlowRouter.
 Example
 -------
 
-You must install ```meteorhacks:flow-router``` and ```tmeasday:publish-counts```.
+You must install ```kadira:flow-router``` and ```tmeasday:publish-counts```.
 
 ```coffee
 @limit = 2
