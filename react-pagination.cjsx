@@ -57,7 +57,7 @@ ReactPagination.Pagination = React.createClass
             </span>
         }
         {for p, i in @data.pages @props.count
-            <span onClick=@pageClick(i) page=p className={"page-button change-page " + @data.selected(i)}>{i+1}</span>
+            <span onClick=@pageClick(i) key={i} page=p className={"page-button change-page " + @data.selected(i)}>{i+1}</span>
         }
         {if @data.showPlus @props.count
             <span>
